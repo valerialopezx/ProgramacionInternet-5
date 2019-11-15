@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/games:/snap/bin:/home/juan/Android/Sdk/emulator:/home/juan/Android/Sdk/tools:/home/juan/Android/Sdk/tools/bin:/home/juan/Android/Sdk/platform-tools:/home/juan/android-sdk/tools:/home/juan/android-sdk/platform-tools
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/juan/Documentos/CUCEI/6to_semestre/programacion para internet/tic-tac-toe/node_modules/@babel/helper-create-regexp-features-plugin'
+
+npm manifest: 
+  {
+    "name": "tic-tac-toe",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "react-scripts": "2.1.8"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
